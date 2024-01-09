@@ -1483,6 +1483,7 @@ p {
 .portfolio-style-three .text {
   color: var(--black);
   margin-top: 8px;
+  font-style: italic;
 }
 .portfolio-style-three:hover .portfolio-overlay {
   opacity: 1;
