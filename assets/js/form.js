@@ -15,7 +15,7 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     return;
   }
 
-  fetch('https://xboaz4covg35pvwhqttggdcnki0nhogn.lambda-url.us-east-1.on.aws/', {
+  fetch('https://mefh018sif.execute-api.us-east-1.amazonaws.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
