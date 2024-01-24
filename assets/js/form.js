@@ -15,11 +15,10 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     return;
   }
 
-  fetch('https://app.abakro.com/leads/create', {
+  fetch('https://xboaz4covg35pvwhqttggdcnki0nhogn.lambda-url.us-east-1.on.aws/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Cross-Origin-Embedder-Policy': 'https://app.abakro.com',
     },
     body: JSON.stringify({
       name,
