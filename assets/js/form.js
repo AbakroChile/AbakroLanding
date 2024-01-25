@@ -15,7 +15,7 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     return;
   }
 
-  fetch('https://mefh018sif.execute-api.us-east-1.amazonaws.com/', {
+  fetch('https://api.abakro.com/mailing/send', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
