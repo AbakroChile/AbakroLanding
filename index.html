@@ -784,6 +784,7 @@
   </a>
 
   <!--====== js ======-->
+  <script src="https://unpkg.com/imask"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/glightbox.min.js"></script>
   <script src="assets/js/main.js"></script>
@@ -791,6 +792,12 @@
   <script src="assets/js/form.js"></script>
 
   <script>
+    // Input Mask
+    const phoneInput = document.getElementById('phone');
+    const maskOptions = {
+      mask: '+{569} 00000000'
+    };
+    const mask = IMask(phoneInput, maskOptions);
 
     //===== close navbar-collapse when a  clicked
     let navbarTogglerNine = document.querySelector(

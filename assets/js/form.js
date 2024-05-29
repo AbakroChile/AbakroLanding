@@ -28,5 +28,9 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
       message,
     }),
   })
+  .then(() => {
+    // Redirect to emailSent.html
+    window.location.href = 'emailSent.html';
+  })
 
 });
